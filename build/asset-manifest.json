@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4515f21d.css",
+    "main.js": "/static/js/main.80651b30.js",
+    "static/media/ayyo.jpg": "/static/media/ayyo.627ae30ac7d0f0bba13d.jpg",
+    "static/media/homedown.gif": "/static/media/homedown.a92d1be8eab1fa20f128.gif",
+    "static/media/homemonitor.gif": "/static/media/homemonitor.bb5690112b2ea650a232.gif",
+    "static/media/homenene.gif": "/static/media/homenene.b311b17694d380f0ca32.gif",
+    "static/media/finamemory.jpg": "/static/media/finamemory.d2638a998d9570b24f81.jpg",
+    "static/media/amulparlour.jpg": "/static/media/amulparlour.e569ad412dc132bbdb4b.jpg",
+    "static/media/finadrum.jpg": "/static/media/finadrum.a9d9db53bdf26d5d6094.jpg",
+    "static/media/sp-logoo.png": "/static/media/sp-logoo.81bf11addb7b5df985ed.png",
+    "static/media/userlogin.jpg": "/static/media/userlogin.a44ed87062f1418d9743.jpg",
+    "static/media/WhatsApp Image 2023-08-19 at 00.38.52.jpg": "/static/media/WhatsApp Image 2023-08-19 at 00.38.52.b64c7ce09251c3147f3a.jpg",
+    "static/media/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg": "/static/media/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.5adc27cd6ee49597eada.jpg",
+    "index.html": "/index.html",
+    "main.4515f21d.css.map": "/static/css/main.4515f21d.css.map",
+    "main.80651b30.js.map": "/static/js/main.80651b30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4515f21d.css",
+    "static/js/main.80651b30.js"
+  ]
+}

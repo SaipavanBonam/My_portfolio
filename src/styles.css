@@ -1,0 +1,541 @@
+.heading {
+    color: aqua;
+}
+
+body {
+    color: white;
+    background-color: rgba(12, 8, 24);
+
+}
+
+/* navbar section */
+.logo {
+    height: 1.4rem;
+    width: 2.5rem;
+}
+
+.sticky {
+    background-color: #1b1a2ea9 !important;
+    transition: all 0.3s ease-out 0s !important ;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+   
+}
+
+.navbar {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    padding: 0.3rem 2rem !important;
+    font-size: 1.2rem !important;
+}
+
+.Nav-hom {
+    color: #7fffd4;
+    font-size: 1.2rem;
+}
+
+.navbar-home:hover {
+    color:#7fffd4;
+}
+
+.navbar-font {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(12, 8, 24);
+    
+}
+
+.logo {
+    width: 90px;
+    height: 50px;
+}
+
+.navbar-nav {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+    transition:color 1s;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.08);
+    text-shadow: #7fffd4;
+    color:#7fffd4;
+}
+.navbar-nav .nav-item
+{
+    color :#7fffd4;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+
+.navbar-toggler-icon {
+    width: 20px; 
+    height: 2px;
+    background-color:whitesmoke;
+    display: block;
+}
+
+.navbar-toggler-icon:hover {
+    background-color: whitesmoke;
+}
+
+.navbar-toggler-icon+.navbar-toggler-icon {
+    margin-top: 4px;
+}
+.nav-link-expanded {
+    font-size: 120%; /* Increase font size by 20% */
+  }
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    transform: rotate(45deg);
+}
+
+.navbar-toggler-icon {
+    transition: all 0.2s ease;
+}
+
+.nav-item{
+    padding: 10px 20px 0px 10px;
+    
+   
+}
+/* Add this CSS to your existing styles.css file or create a new one */
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important
+  }
+  
+  .navbar-toggler-icon {
+    background-image: none !important;
+    border: none !important;
+    width: 30px; /* Adjust as needed */
+    height: 3px; /* Adjust as needed */
+    background-color: #fff; /* Adjust the color as needed */
+  }
+  
+  .navbar-toggler-icon:not(:last-child) {
+    margin-bottom: 5px; /* Adjust the spacing between lines */
+  }
+
+/* <------Navbar ended--------> */
+/* Footer-section */
+.foot-cont {
+    padding-top: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: darkcyan;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* <-----Home section----->  color: #dc143c;*/
+.home-write {
+    padding-top: 100px;
+    color: whitesmoke
+}
+
+.home-name1 {
+    padding-top: 25px;
+}
+.need-pad{
+    padding-top: 65px;
+}
+.home-name {
+    color:#7fffd4;
+}
+
+.homologo {
+    background-color:none;
+    transform:scaleX(-1);
+    
+    max-height: 430px;
+}
+
+.typewrite {
+    color: #7fffd4;
+    padding: 80px;
+    padding-left: 0px;
+    font-size: 2.5rem;
+    text-align: left;
+    text-overflow: ellipsis;
+
+}
+
+.home-about-social-links {
+    justify-content: center;
+    padding-top: 15px !important;
+    display: inline-block !important;
+    position: relative !important;
+    padding-inline-start: 0 !important;
+}
+
+.home-social-icons {
+    position: relative !important;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center !important;
+    font-size: 1.2em !important;
+    line-height: 2em !important;
+    background: whitesmoke !important;
+    border-radius: 50% !important;
+    transition: 0.5s !important;
+}
+
+.home-social-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: aquamarine;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+}
+
+.home-social-icons:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #7fffd4;
+}
+
+.home-social-icons:hover {
+    color: #7fffd4;
+    box-shadow: 0 0 5px #7fffd4;
+    text-shadow: 0 0 2px #7fffd4;
+}
+
+.social-icons {
+    display: inline-block !important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.icon-colour {
+    color: rgb(5, 58, 40) !important;
+}
+
+/* <<<<<<--------Aboutme- Begins-------> */
+.about-head {
+    color: #7fffd4;
+}
+
+.about-cont {
+    padding-top: 80px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.about-name {
+    color: #7fffd4;
+}
+
+.about-para {
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.homemonitor {
+    background-color: none;
+    margin: 30px;
+    max-height: 450px;
+}
+
+.about-educ {
+    padding-top: 30px;
+}
+
+.about-educhead {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.about-educspan {
+    color: #7fffd4;
+}
+
+.about-card1 {
+    background-color: rgb(12, 8, 24);
+    text-align: center;
+    border-radius: 40px;
+}
+
+.ab-ca-t {
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    box-shadow: 1px 1px 10px inset white;
+}
+
+.ab-ca-st {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.educolor {
+    color: #7fffd4;
+}
+
+.ab-ca-te {
+    padding-top: 10px;
+}
+
+.margin-educ {
+    margin-right: 44px;
+    margin-left: 33px;
+}
+
+/* <<<<<..............Timeline............>>>>>>>>>>>>>>>>> */
+.timeline {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.timeline-event {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+.event-date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+
+.event-description {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* <<<<<<<<.................Timeline............>>>>>>>>>>>>>>>>>> */
+.timeline-date {
+    font-size: 15rem;
+    font-weight: bold;
+}
+
+.vertical-timeline-element-date {
+    font-size: 6rem;
+    font-weight: bold;
+
+}
+
+/* <<<<<<<<<<<<<<<<...........SKILLS..................>>>>>>>>>>>>>>>>>>>>>>>> */
+.skills-top {
+    margin-top: 120px;
+
+}
+
+/* .skills-head
+{
+  opacity: 9;
+  padding-left: 360px;
+} */
+.talent-icons {
+    font-size: 4rem !important;
+    margin: 35px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid #7fffd4 !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 1px 2px 2px 1px rgb(177, 223, 223) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+
+}
+
+.talent-icons:hover {
+    transform: scale(1.05) !important
+}
+.project-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+  }
+  
+  .project-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+   
+  }
+  .project-card .card-img {
+    height: 300px !important; 
+    object-fit: cover !important; 
+  }
+  
+  .project-card-view {
+    box-shadow: 0 4px 5px 3px rgb(60, 125, 125) !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 50% !important;
+  }
+  .project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgb(60, 125, 125) !important;
+  }
+  
+  .blog-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+  }
+  
+  .blog-card-view {
+    background-color: transparent !important;
+    box-shadow: 0 3px 3px 2px rgb(60, 125, 125) !important;
+    color: white !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+  }
+  
+  .blog-link {
+    color: white !important;
+    text-decoration: none !important;
+  }
+  
+  .blog-link:hover {
+    cursor: pointer !important;
+  }
+  
+  .blog-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 3px 3px 5px rgb(60, 125, 125) !important;
+  }
+  
+  .card-img-top {
+    padding: 20px !important;
+    opacity: 0.8 !important;
+    border-radius: 10px !important;
+  }
+  
+  .blog-img {
+    padding: 0px !important;
+    opacity: 0.8 !important;
+    border-radius: 0px !important;
+  }
+  
+  .btn-primary {
+    color: #fff !important;
+    background-color:#7fffd4 !important;
+    border-color: #7fffd4!important;
+  }
+  
+  .btn-primary:hover {
+    color: #fff !important;
+    background-color: #7fffd4 !important;
+    border-color: #7fffd4!important;
+  }
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .project-heading {
+    color: white !important;
+    font-size: 2.3em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+  }
+  .footer {
+    background-color: rgb(10, 4, 22);
+    bottom: 0 !important;
+    margin-top:20px!important;
+    padding-top: 20px !important;
+    padding-bottom: 8px !important ;
+    
+  }
+  .footer-copywright {
+    text-align: center !important;
+  }
+  
+  .footer-body {
+    z-index: 1;
+    text-align: center !important;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-copywright {
+      text-align: center !important;
+    }
+  
+    .footer-body {
+      text-align: center !important;
+    }
+  }
+  
+  .footer h3 {
+    font-size: 1em;
+    color: white !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+  .footer-icons {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    padding: 0 !important;
+  }
+  
+  .blockquote-footer {
+    color: #a588c0 !important;
+  }
+  
+  .vvbutton {
+    background-color:#21352e;
+    color: white;
+    /* padding-top: 40px; */
+    padding: 15px 30px; /* Increased padding for larger size */
+    border: none;
+    border-radius: 80px; /* Slightly increased border radius */
+    font-size: 30px; /* Increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Center the button horizontally */
+    margin: 0 auto; /* Center the button horizontally */
+    text-align: center; /* Center the text inside the button */
+   
+}
+
+.vvbutton:hover {
+    background-color:#011811;
+}
+
